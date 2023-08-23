@@ -7,7 +7,8 @@ import { ImLocation2 } from 'react-icons/im';
 const Footer = () => {
   return (
     <>
-      <div className='container'>
+      <div className='container-floid'>
+        <hr />
         <div className='row px-4 justify-content-between '>
           <div className='col-2 '>
             <div>

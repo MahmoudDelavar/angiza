@@ -1,0 +1,39 @@
+.card-box {
+  background-color: rgb(170, 170, 170);
+  width: 200px;
+  height: 400px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.card-box p {
+  color: rgb(252, 252, 252);
+}
+.card-box:hover {
+  background-color: rgb(224, 224, 224);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card-box:hover .product-img {
+  width: 250px;
+  transition: 0.5s;
+}
+.card-box:hover p {
+  color: rgb(66, 66, 66);
+  transition: 0.5s;
+}
+
+.img-contain {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-img {
+  width: 200px;
+}

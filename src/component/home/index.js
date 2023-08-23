@@ -1,5 +1,11 @@
+import ProductList from '../products';
+
 const LandingPage = () => {
-  return <>landing page </>;
+  return (
+    <>
+      <ProductList />
+    </>
+  );
 };
 
 export default LandingPage;
