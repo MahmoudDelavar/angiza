@@ -1,9 +1,16 @@
+import Header from './layouts/header';
+import Footer from './layouts/footer';
+import Home from './component/home';
+import { BrowserRouter } from 'react-router-dom';
+//=================================================
 function App() {
   return (
     <>
-      <div className='text-center mt-2'>angize negar challenge</div>
-
-      <p>اسیدستنی</p>
+      <BrowserRouter>
+        <Header />
+        <Home />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
