@@ -16,3 +16,15 @@
 .header p {
   color: #877e7bc6;
 }
+
+.footer {
+  min-height: 200px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    79deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(9, 12, 121, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
