@@ -6,10 +6,6 @@ const Header = () => {
     <>
       {/* ----------- header ----------- */}
       <div className='d-flex align-items-center  justify-content-center mt-4 '>
-        <div className='text-center text-warning header '>
-          <p className='fw-bold fs-4 mx-3 mb-0 '>ReactJs Challenge</p>
-          <p>Easy and Disappointing </p>
-        </div>
         <div>
           <Link to='https://angizehco.com/' className='image-container'>
             <img
@@ -20,6 +16,10 @@ const Header = () => {
               sizes=''
             />
           </Link>
+        </div>
+        <div className='text-center text-warning header '>
+          <p className='fw-bold fs-4 mx-3 mb-0 '>ReactJs Challenge</p>
+          <p className='text-center'>Easy and Disappointing </p>
         </div>
       </div>
 

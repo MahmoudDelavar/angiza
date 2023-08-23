@@ -1,3 +1,4 @@
+import './style.css';
 const NavItem = ({ title, description, icon }) => {
   return (
     <>
