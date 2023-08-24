@@ -12,7 +12,7 @@ const ProductList = () => {
         const propducts = await getAllProducts();
         setProducts(propducts);
       } catch (error) {
-        console.log('cant loaded propducts:', error);
+        console.log('AxiosERR "cant loaded propducts:"', error);
       }
     })();
   }, []);
@@ -23,15 +23,14 @@ const ProductList = () => {
 
   return (
     <>
-      <div className='container'>
-        <p className='text-center fs-2 fw-bold'>لیست محصولات</p>
-        <div className='row justify-content-center'>
+      <div className='container-floid bg-dark pt-3'>
+        <div className='row justify-content-center '>
           {propducts.map((p) => (
             <ProductCard
               key={p.id}
-              name={p.name}
-              brief={p.brief}
-              description={p.description}
+              name={p.name || 'نام محصول'}
+              brief={p.brief || 'توضیح مختصر '}
+              description={p.description || ' توضیحات محصول'}
               image={p.image}
             />
           ))}

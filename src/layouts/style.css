@@ -14,5 +14,8 @@
 }
 
 .header p {
-  color: #323232c6;
+  color: rgb(158, 158, 158);
+}
+.footer p {
+  color: rgb(158, 158, 158);
 }

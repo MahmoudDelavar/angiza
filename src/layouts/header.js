@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       {/* ----------- header ----------- */}
-      <div className='d-flex align-items-center  justify-content-center mt-4 '>
+      <div className='d-flex align-items-center  justify-content-center py-4 bg-black '>
         <div>
           <Link to='https://angizehco.com/' className='image-container'>
             <img
